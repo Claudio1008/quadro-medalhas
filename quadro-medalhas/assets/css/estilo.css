@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+h1 {
+    font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: blue;
+}
+
+img {
+  height: 25px; /*atura da imagem*/
+  width: 25px;  /* da imagem*/
+}
+
+.medalhas {
+  height: 35px; /*atura da imagem*/
+  width: 35px;  /* da imagem*/
+}
+
+td {
+  text-align: center;
+}
+
+.pais {
+  text-align: left;
+}
+
+.pais {
+  text-align: left;
+  width: 200px;
+}
+
+td:nth-child(1) {
+  width: 30px;
+}
+
+img:hover {
+  transform: scale(2);
+}
+
+tr:hover{
+  background-color: aqua;
+}
